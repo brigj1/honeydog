@@ -47,6 +47,9 @@ gem "bootsnap", require: false
 # Set up Solid Queue as  ActiveJob adapter
 gem "solid_queue"
 
+# a tool to inspect job queues and retry or delete failed jobs
+gem "mission_control-jobs"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
